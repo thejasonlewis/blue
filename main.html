@@ -10,7 +10,7 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <div id="reserve-a-table" class="row">
+    <div id="reserve-a-table" class="hide row">
       <div id="drop-up" class="small-12 large-6 columns">
         <h4 id="table">FIND A TABLE</h4>
           <form>
@@ -84,7 +84,7 @@
         <!-- Right Nav Section -->
         <ul id="find-a-table" class="right">
           <li>
-            <a href="#" class="button radius">FIND A TABLE</a>
+            <a href="#" class="find-table button radius">FIND A TABLE</a>
           </li>
         </ul>
 
@@ -127,6 +127,9 @@
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
+      $(".find-table").click(function(){
+        $("#reserve-a-table").toggle();
+      });
     </script>
   </body>
 </html>
