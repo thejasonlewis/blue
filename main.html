@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>Blue Plate | Welcome</title>
     <link rel="stylesheet" href="css/foundation.min.css" />
-    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <div id="reserve-a-table" class="hide row">
-      <div id="drop-up" class="small-12 large-6 columns">
-        <h4 id="table">FIND A TABLE</h4>
+    <div id="home-container">
+      <div id="reserve-a-table" class="hide row">
+        <div id="drop-up" class="small-12 large-6 columns">
+          <h4 id="table">FIND A TABLE</h4>
           <form>
             <div class="row">
               <div class="large-6 columns">
@@ -49,78 +50,85 @@
               </div>
             </div>
           </form>
-        <div class="row">
+          <div class="row">
             <div class="large-6 columns">
               <!-- Button -->
-             <a href="#" class="button radius">FIND A TABLE</a>
+              <a href="#" class="button radius">FIND A TABLE</a>
             </div>
             <div class="large-6 columns">
               <a><img id="logo" src="img/Home-M.png" alt="label"></a>
             </div>
           </div>
+        </div>
+        <div id="info-panel" class="large-6 columns">
+          <p class="hours">The Blue plate accepts reservations for dinner service Monday - Thursday from<br> 5:30 to 10:00
+            Friday and Saturday from 5:30 to 10:30 and Sunday from 5:30 to 9:30.</p>
+
+          <p class="events">For Special events and large parties greater than 6 please email
+            reservations@blueplatesf.com for any large party of events requests.  To make a request by phone please
+            call (419)282-6777.</p>
+        </div>
+
+
       </div>
-      <div id="info-panel" class="large-6 columns">
-        <p class="hours">The Blue plate accepts reservations for dinner service Monday - Thursday from<br> 5:30 to 10:00
-          Friday and Saturday from 5:30 to 10:30 and Sunday from 5:30 to 9:30.</p>
-
-        <p class="events">For Special events and large parties greater than 6 please email
-          reservations@blueplatesf.com for any large party of events requests.  To make a request by phone please
-          call (419)282-6777.</p>
-      </div>
-
-
-     </div>
-    <!-- navbar-->
-    <nav class="top-bar" data-topbar role="navigation">
-      <ul class="title-area">
-        <li class="name">
-          <h1 id="blue-plate-logo"><a href="#"><img src="img/Blue-Plate.png"  alt="Neighborhood"></a></h1>
-        </li>
-        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-      </ul>
-
-      <section class="top-bar-section">
-        <!-- Right Nav Section -->
-        <ul id="find-a-table" class="right">
-          <li>
-            <a href="#" class="find-table button radius">FIND A TABLE</a>
+      <!-- navbar-->
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <h1 id="blue-plate-logo"><a href="#"><img src="img/Blue-Plate.png"  alt="Neighborhood"></a></h1>
           </li>
+          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
         </ul>
 
-        <!-- Left Nav Section -->
-        <ul id="menu" class="right">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">OUR MENU</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li><a href="#">EVENTS</a></li>
-          <li><a href="#">CONTACT US</a></li>
-        </ul>
-      </section>
-    </nav>
-    <!-- blueplate -->
-    <a><img src="img/Home.png" id="main-photo" alt="Neighborhood"></a>
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul id="find-a-table" class="right">
+            <li>
+              <a href="#" class="find-table button radius">FIND A TABLE</a>
+            </li>
+          </ul>
 
-    <!-- footer-->
-    <div id="footer" class="row">
-      <div class="small-6 large-3 columns">
-        <h4>ADDRESS</h4>
-        <h5>3218 Mission St @ Valencia</h5>
-        <h5>San Fransisco, CA 94110</h5>
-        <h5 id="map">Get Directions</h5>
+          <!-- Left Nav Section -->
+          <ul id="menu" class="right">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">OUR MENU</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">EVENTS</a></li>
+            <li><a href="#">CONTACT US</a></li>
+          </ul>
+        </section>
+      </nav>
+      <!-- blueplate -->
+      <a><img src="img/Home.png" id="main-photo" alt="Neighborhood"></a>
+
+      <!-- footer-->
+      <div id="footer">
+        <div class="row">
+          <div class="columns small-12 visible-for-small-only text-center">
+              <p>415 282 6777</p>
+          </div>
+          <div class="small-6 large-3 columns">
+            <h4>ADDRESS</h4>
+            <h5>3218 Mission St @ Valencia</h5>
+            <h5>San Fransisco, CA 94110</h5>
+            <h5 id="map">Get Directions</h5>
+          </div>
+          <div class="small-6 large-3 columns">
+            <h4 class="small-only-text-center">415 282 6777</h4>
+            <h5>Info@BluePlateSF.com</h5>
+          </div>
+          <div class="large-3 small-6 columns">
+            <h4>HOURS</h4>
+            <h5>Mon-Thurs 5:30 - 10:00</h5>
+            <h5>Fri - Sat 5:30 - 10:30</h5>
+            <h5>Sun       5:30 - 9:30</h5>
+          </div>
+          <div class="large-3 columns">...</div>
+        </div>
       </div>
-      <div class="small-6 large-3 columns">
-        <h4 class="small-only-text-center">415 282 6777</h4>
-        <h5>Info@BluePlateSF.com</h5>
-      </div>
-      <div class="large-3 columns">
-        <h4>HOURS</h4>
-        <h5>Mon-Thurs 5:30 - 10:00</h5>
-        <h5>Fri - Sat 5:30 - 10:30</h5>
-        <h5>Sun       5:30 - 9:30</h5>
-      </div>
-      <div class="large-3 columns">...</div>
     </div>
+
 
 
     <script src="js/vendor/jquery.js"></script>
