@@ -16,6 +16,7 @@
 .top-bar-section ul li,.top-bar-section li:not(.has-form) a:not(.button) {
   background: $bp-white;
   color: $bp-blue;
+  font-family: lato;
 }
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background:$bp-white;
@@ -26,20 +27,26 @@
   border: $bp-blue;
   color: $bp-blue;
   font-family: lato;
-  font-weight: bold;
-  font-size: 12px;
+  font-size: 13px;
   width: 150px;
   height: 35px;
-  padding-top: 8px;
+  padding-top: 11px;
   margin-top: -6px;
 }
 .top-bar-section ul li>a.button:hover, .top-bar-section ul li>a.button:focus {
   background-color: $bp-blue;
   border: solid;
   border-color: $bp-blue;
-  font-family: "lato";
-  font-weight: bold;
+  font-family: lato;
+  font-size: 13px;
+  width: 150px;
+  height: 35px;
+  padding-top: 11px;
+  margin-top: -6px;
 }
 .top-bar.expanded .title-area {
   background-color: $bp-white;
+}
+.button:hover, .button:focus {
+  font-weight: none;
 }

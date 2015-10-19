@@ -2,9 +2,13 @@
   Buttons, typography and any shared styles go here
 
 */
+html, body {
+  height:100%;
+}
 body {
   margin-top: 20px;
-  max-width: 100%
+  max-width: 100%;
+  min-height: 100%;
 }
 
 
@@ -40,4 +44,5 @@ h4, h5 {
 h5 {
   font-size: 14px;
   color: $bp-gray;
+  line-height: 105%;
 }

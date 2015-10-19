@@ -1,4 +1,5 @@
 #home-container {
+  height:100%;
   #table {
     font-family: "lato";
     font-weight: bold;
@@ -25,15 +26,16 @@
     padding-right: 183px;
   }
   .hours {
-    font-size: 12px;
-    font-family: "lato";
+    font-size: 13px;
+    font-family: lato;
     line-height: 17px;
     padding-top: 35px;
+    line-height: inherit;
   }
   .events {
-    font-size: 12px;
-    font-family: "lato";
-    line-height: 17px;
+    font-size: 13px;
+    font-family: lato;
+    line-height: inherit;
   }
   label.right{
     text-align: left;
