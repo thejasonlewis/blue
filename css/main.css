@@ -364,3 +364,8 @@ h5 {
   background-color: #3b4350;
   color: white;
 }
+#home-container #dial h2 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
