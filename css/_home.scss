@@ -14,7 +14,7 @@
       position: fixed;
       bottom: 0px;
     }
-  }  
+  }
   #table {
     font-family: "lato";
     font-weight: bold;
@@ -90,23 +90,20 @@
     width: 194px;
     height: auto;
   }
-  #map {
-    text-decoration: underline;
-    padding-top: 9px;
-  }
   #background-photo {
-    background: url("../img/Home.png") no-repeat center center black;
+    background: url("../img/home.jpg") no-repeat center center black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    border-top: 1px solid $bp-gray-b2;
     width: 100%;
     min-height: 571px;
   }
   #dial {
     font-size: 24px;
     background-color: #3b4350;
-    text-color: white;
-    color: white;
+    color: $bp-white;
   }
+
 }

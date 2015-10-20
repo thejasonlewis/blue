@@ -7,7 +7,7 @@
 }
 
 #reserve-a-table {
-  margin-left: 151px;
+  border-bottom: 1px solid #abaeb1;
 }
 
 #blue-plate-logo {
@@ -55,7 +55,7 @@
 }
 
 .button:hover, .button:focus {
-  font-weight: none;
+  font-weight: normal;
 }
 
 #find-a-table {
@@ -118,13 +118,31 @@ h5 {
 
 #footer {
   background-color: #232932;
+  border-top: 1px solid #3b4350;
   color: white;
   padding-top: 60px;
   height: 254px;
 }
-
-.footer-row {
-  margin-left: 151px;
+#footer .square {
+  background: #2c55a0;
+  border-radius: 2px;
+  float: left;
+  height: 60px;
+  margin-bottom: 6px;
+  margin-right: 5px;
+  width: 68px;
+}
+#footer .copyright p {
+  color: #3b4350;
+  font-size: 10pt;
+}
+#footer #map {
+  border-bottom: 2px solid #686b6f;
+  color: #686b6f;
+  padding-top: 9px;
+}
+#footer #map:hover {
+  color: white;
 }
 
 @media screen and (max-width: 992px) {
@@ -213,22 +231,18 @@ h5 {
   width: 194px;
   height: auto;
 }
-#home-container #map {
-  text-decoration: underline;
-  padding-top: 9px;
-}
 #home-container #background-photo {
-  background: url("../img/Home.png") no-repeat center center black;
+  background: url("../img/home.jpg") no-repeat center center black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  border-top: 1px solid #b2b7bf;
   width: 100%;
   min-height: 571px;
 }
 #home-container #dial {
   font-size: 24px;
   background-color: #3b4350;
-  text-color: white;
   color: white;
 }

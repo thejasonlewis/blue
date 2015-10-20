@@ -1,11 +1,35 @@
 #footer {
   background-color: $bp-d-blue;
+  border-top: 1px solid $bp-navy;
   color: $bp-white;
   padding-top: 60px;
 
   height: 254px;
-}
 
-.footer-row {
-  margin-left: 151px;
+  .square {
+    background: $bp-blue;
+    border-radius: 2px;
+    float: left;
+    height: 60px;
+    margin-bottom: 6px;
+    margin-right: 5px;
+    width: 68px;
+  }
+
+  .copyright {
+    p {
+      color: $bp-navy;
+      font-size: 10pt;
+    }
+  }
+
+  #map {
+    border-bottom: 2px solid $bp-gray-68;
+    color: $bp-gray-68;
+    padding-top: 9px;
+
+    &:hover {
+      color: $bp-white;
+    }
+  }
 }

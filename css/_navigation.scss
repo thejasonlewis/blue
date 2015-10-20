@@ -6,7 +6,7 @@
   margin-left: 151px;
 }
 #reserve-a-table{
-  margin-left: 151px;
+  border-bottom: 1px solid $bp-light-gray;
 }
 #blue-plate-logo {
   width: 195px;
@@ -47,7 +47,7 @@
   background-color: $bp-white;
 }
 .button:hover, .button:focus {
-  font-weight: none;
+  font-weight: normal;
 }
 #find-a-table{
   padding-left: 16px;
