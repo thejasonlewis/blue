@@ -143,11 +143,17 @@
     font-size: 24px;
     background-color: #3b4350;
     color: $bp-white;
+    padding: 10px 0;
 
     h2 {
       color: $bp-white;
+      font-size: 18px;
       margin-top: 0;
       margin-bottom: 0;
+
+      span {
+        padding-right: 15px;
+      }
     }
   }
 
