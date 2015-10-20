@@ -53,7 +53,7 @@
     font-family: lato;
     line-height: inherit;
   }
-  label.right{
+  label.right {
     text-align: left;
   }
   #right-label {
@@ -102,16 +102,16 @@
     width: 100%;
     min-height: 371px;
 
-    @include responsive('xs-landscape'){
+    @include responsive('xs-landscape') {
       min-height: 371px;
     }
-    @include responsive('sm'){
+    @include responsive('sm') {
       min-height: 471px;
     }
-    @include responsive('md'){
+    @include responsive('md') {
       min-height: 500px;
     }
-    @include responsive('lg'){
+    @include responsive('lg') {
       min-height: 571px;
     }
 
@@ -124,16 +124,16 @@
         font-family: lato;
         font-size: 16pt;
 
-        @include responsive('xs-landscape'){
+        @include responsive('xs-landscape') {
           font-size: 16pt;
         }
-        @include responsive('sm'){
+        @include responsive('sm') {
           font-size: 26pt;
         }
-        @include responsive('md'){
+        @include responsive('md') {
           font-size: 36pt;
         }
-        @include responsive('lg'){
+        @include responsive('lg') {
           font-size: 36pt;
         }
       }
@@ -156,5 +156,5 @@
       }
     }
   }
-
 }
+
