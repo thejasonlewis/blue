@@ -1,20 +1,21 @@
 #home-container {
-  @media screen and (max-width: 992px) {
-    .navigation-nav {
-    }
-    #background-photo {
-      background: url("../img/Home.png") no-repeat center center black;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      width: 100%;
-    }
-    #footer {
-      position: fixed;
-      bottom: 0px;
-    }
-  }
+  //I don't think you need this but let me know what you were tryinf to do when I check in with you tomorrow
+  //@media screen and (max-width: 992px) {
+  //  .navigation-nav {
+  //  }
+  //  #background-photo {
+  //    background: url("../img/Home.png") no-repeat center center black;
+  //    -webkit-background-size: cover;
+  //    -moz-background-size: cover;
+  //    -o-background-size: cover;
+  //    background-size: cover;
+  //    width: 100%;
+  //  }
+  //  #footer {
+  //    position: fixed;
+  //    bottom: 0px;
+  //  }
+  //}
   #table {
     font-family: "lato";
     font-weight: bold;
@@ -99,7 +100,20 @@
     border-top: 1px solid $bp-gray-b2;
     display: table;
     width: 100%;
-    min-height: 571px;
+    min-height: 371px;
+
+    @include responsive('xs-landscape'){
+      min-height: 371px;
+    }
+    @include responsive('sm'){
+      min-height: 471px;
+    }
+    @include responsive('md'){
+      min-height: 500px;
+    }
+    @include responsive('lg'){
+      min-height: 571px;
+    }
 
     .vertical {
       display: table-cell;
@@ -108,7 +122,20 @@
       h1 {
         color: $bp-white;
         font-family: lato;
-        font-size: 36pt;
+        font-size: 16pt;
+
+        @include responsive('xs-landscape'){
+          font-size: 16pt;
+        }
+        @include responsive('sm'){
+          font-size: 26pt;
+        }
+        @include responsive('md'){
+          font-size: 36pt;
+        }
+        @include responsive('lg'){
+          font-size: 36pt;
+        }
       }
     }
   }
