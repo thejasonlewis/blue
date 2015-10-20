@@ -9,7 +9,6 @@
   margin-left: 141px;
 }
 #blue-plate-logo {
-  margin-left: 141px;
   width: 195px;
   height: 23px;
 }
@@ -24,7 +23,7 @@
 }
 .top-bar-section ul li>a.button {
   background-color: $bp-white;
-  border: $bp-blue;
+  border: $bp-blue 1px solid;
   color: $bp-blue;
   font-family: lato;
   font-size: 13px;
@@ -35,7 +34,7 @@
 }
 .top-bar-section ul li>a.button:hover, .top-bar-section ul li>a.button:focus {
   background-color: $bp-blue;
-  border: solid;
+  border: solid 1px;
   border-color: $bp-blue;
   font-family: lato;
   font-size: 13px;
