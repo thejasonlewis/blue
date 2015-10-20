@@ -1,19 +1,20 @@
 #home-container {
   @media screen and (max-width: 992px) {
-    .navigation-nav
+    .navigation-nav {
     }
     #background-photo {
       background: url("../img/Home.png") no-repeat center center black;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size;
+      background-size: cover;
       width: 100%;
     }
     #footer {
       position: fixed;
       bottom: 0px;
     }
+  }  
   #table {
     font-family: "lato";
     font-weight: bold;
