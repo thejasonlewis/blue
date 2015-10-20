@@ -97,8 +97,20 @@
     -o-background-size: cover;
     background-size: cover;
     border-top: 1px solid $bp-gray-b2;
+    display: table;
     width: 100%;
     min-height: 571px;
+
+    .vertical {
+      display: table-cell;
+      vertical-align: middle;
+
+      h1 {
+        color: $bp-white;
+        font-family: lato;
+        font-size: 36pt;
+      }
+    }
   }
   #dial {
     font-size: 24px;

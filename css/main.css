@@ -72,6 +72,10 @@ label {
   font-weight: bold;
 }
 
+#drop-up {
+  padding-left: 32px;
+}
+
 /*
   Buttons, typography and any shared styles go here
 
@@ -317,8 +321,18 @@ h5 {
   -o-background-size: cover;
   background-size: cover;
   border-top: 1px solid #b2b7bf;
+  display: table;
   width: 100%;
   min-height: 571px;
+}
+#home-container #background-photo .vertical {
+  display: table-cell;
+  vertical-align: middle;
+}
+#home-container #background-photo .vertical h1 {
+  color: white;
+  font-family: lato;
+  font-size: 36pt;
 }
 #home-container #dial {
   font-size: 24px;
