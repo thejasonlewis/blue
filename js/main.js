@@ -6,7 +6,7 @@ function sizeVideoFrame(){
             var phoneHeight = $(".phone-number").outerHeight();
             var headFootHeight =   headerHeight + footerHeight + phoneHeight;
             var iframeHeight = document.documentElement.clientHeight - headFootHeight - 50;
-            $("#main-photo").css("height", iframeHeight)
+            $("#background-photo").css("height", iframeHeight)
         }
     });
 

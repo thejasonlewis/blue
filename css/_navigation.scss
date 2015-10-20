@@ -3,10 +3,10 @@
   padding-right: 81px;
   margin-bottom: 24px;
   margin-top: 20px;
-  margin-right: 148px;
+  margin-left: 151px;
 }
 #reserve-a-table{
-  margin-left: 141px;
+  margin-left: 151px;
 }
 #blue-plate-logo {
   width: 195px;
@@ -19,7 +19,7 @@
 }
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background:$bp-white;
-  color: red;
+  color: #092456;
 }
 .top-bar-section ul li>a.button {
   background-color: $bp-white;
@@ -29,7 +29,7 @@
   font-size: 13px;
   width: 150px;
   height: 35px;
-  padding-top: 11px;
+  padding-top: 9px;
   margin-top: -6px;
 }
 .top-bar-section ul li>a.button:hover, .top-bar-section ul li>a.button:focus {
@@ -40,7 +40,7 @@
   font-size: 13px;
   width: 150px;
   height: 35px;
-  padding-top: 11px;
+  padding-top: 8px;
   margin-top: -6px;
 }
 .top-bar.expanded .title-area {
@@ -48,4 +48,11 @@
 }
 .button:hover, .button:focus {
   font-weight: none;
+}
+#find-a-table{
+  padding-left: 16px;
+  margin-right: -74px;
+}
+#menu {
+  padding-left: 20px;
 }

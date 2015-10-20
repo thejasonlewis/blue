@@ -1,22 +1,19 @@
 #home-container {
-  height:100%;
   @media screen and (max-width: 992px) {
-    .navigation-nav{
-      background-color: pink;
+    .navigation-nav
     }
-    #main-photo {
+    #background-photo {
       background: url("../img/Home.png") no-repeat center center black;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;
+      background-size;
       width: 100%;
     }
     #footer {
       position: fixed;
       bottom: 0px;
     }
-  }
   #table {
     font-family: "lato";
     font-weight: bold;
@@ -43,14 +40,14 @@
     padding-right: 183px;
   }
   .hours {
-    font-size: 13px;
+    font-size: 12px;
     font-family: lato;
     line-height: 17px;
     padding-top: 35px;
     line-height: inherit;
   }
   .events {
-    font-size: 13px;
+    font-size: 12px;
     font-family: lato;
     line-height: inherit;
   }
@@ -63,7 +60,7 @@
     margin-right: 22px;
   }
   #size {
-    word-spacing: 9px;
+    word-spacing: 6px;
   }
   .inline {
     font-family: "lato";
@@ -96,13 +93,19 @@
     text-decoration: underline;
     padding-top: 9px;
   }
-  #main-photo {
+  #background-photo {
     background: url("../img/Home.png") no-repeat center center black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    min-height: 600px;
+    min-height: 571px;
+  }
+  #dial {
+    font-size: 24px;
+    background-color: #3b4350;
+    text-color: white;
+    color: white;
   }
 }
