@@ -101,7 +101,6 @@ label {
   }
 }
 .navigation-nav .menu-icon .find-table {
-  position: absolute !important;
   right: 45px;
 }
 .navigation-nav .menu-icon .button.radius {
@@ -122,11 +121,6 @@ label {
   font-weight: bold;
   color: white;
   padding: 0px;
-}
-@media screen and (max-width: 992px) {
-  .navigation-nav #find-a-table {
-    display: none !important;
-  }
 }
 @media screen and (max-width: 992px) {
   .navigation-nav #blue-plate-logo {
@@ -286,7 +280,7 @@ h5 {
   color: white;
 }
 
-#home-container #table {
+#home-container .table {
   font-family: "lato";
   font-weight: bold;
   font-size: 18px;
@@ -294,16 +288,9 @@ h5 {
   letter-spacing: 1px;
   margin-bottom: 26px;
 }
-@media screen and (max-width: 992px) {
-  #home-container #table {
-    border-bottom: 1px solid #abaeb1;
-  }
-}
-#home-container #logo {
+#home-container .logo {
   height: auto;
-  width: auto;
-  max-width: 300px;
-  max-height: 300px;
+  width: 94px;
   margin-left: -13px;
 }
 #home-container #party {
@@ -319,7 +306,6 @@ h5 {
 #home-container .hours {
   font-size: 12px;
   font-family: lato;
-  line-height: 17px;
   padding-top: 35px;
   line-height: inherit;
 }
@@ -331,12 +317,12 @@ h5 {
 #home-container label.right {
   text-align: left;
 }
-#home-container #right-label {
+#home-container .right-label {
   width: 96px;
   height: 29px;
   margin-right: 22px;
 }
-#home-container #size {
+#home-container .size {
   word-spacing: 6px;
 }
 #home-container .inline {
@@ -355,7 +341,7 @@ h5 {
   font-size: 16px;
   font-weight: bold;
 }
-#home-container #party-size {
+#home-container .party-size {
   width: 46px;
   height: 30px;
 }
@@ -447,12 +433,27 @@ h5 {
   border-radius: 4px;
   border: 1px solid #AAAAAA;
   max-width: 540px;
+  padding: 40px;
   position: absolute;
   top: 10px;
   right: 0;
   left: 0;
 }
-
-.mobile-btn {
-  width: 90%;
+.mobile-find-a-table h4 {
+  border-bottom: 1px solid #abaeb1;
+  font-weight: bold;
+  font-size: 18px;
+  color: #2c55a0;
+  margin: 0;
+  letter-spacing: 1px;
+  padding-bottom: 26px;
+}
+.mobile-find-a-table .mobile-btn {
+  background: #2c55a0;
+  color: white;
+  display: block;
+  max-width: 454px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
 }

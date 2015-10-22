@@ -82,7 +82,6 @@ label {
       display: none;
     }
     .find-table {
-      position: absolute !important;
       right: 45px;
     }
     .button.radius {
@@ -107,7 +106,7 @@ label {
   }
   #find-a-table {
     @media screen and (max-width: 992px) {
-      display: none !important;
+      //display: none !important;
     }
   }
   #blue-plate-logo {

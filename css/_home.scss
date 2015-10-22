@@ -1,20 +1,15 @@
 #home-container {
-  #table {
+  .table {
     font-family: "lato";
     font-weight: bold;
     font-size: 18px;
     color: #2c55a0;
     letter-spacing: 1px;
     margin-bottom: 26px;
-    @media screen and (max-width: 992px){
-      border-bottom: 1px solid #abaeb1;
-    }
   }
-  #logo {
+  .logo {
     height: auto;
-    width: auto;
-    max-width: 300px;
-    max-height: 300px;
+    width: 94px;
     margin-left: -13px;
   }
   #party {
@@ -30,7 +25,6 @@
   .hours {
     font-size: 12px;
     font-family: lato;
-    line-height: 17px;
     padding-top: 35px;
     line-height: inherit;
   }
@@ -43,12 +37,12 @@
     text-align: left;
 
   }
-  #right-label {
+  .right-label {
     width: 96px;
     height: 29px;
     margin-right: 22px;
   }
-  #size {
+  .size {
     word-spacing: 6px;
   }
   .inline {
@@ -70,7 +64,7 @@
     font-weight: bold;
   }
 
-  #party-size {
+  .party-size {
     width: 46px;
     height: 30px;
   }
@@ -154,10 +148,31 @@
   border-radius: 4px;
   border: 1px solid #AAAAAA;
   max-width: 540px;
+  padding: 40px;
   position: absolute;
   top: 10px;
   right: 0;
   left: 0;
+
+  h4 {
+    border-bottom: 1px solid #abaeb1;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2c55a0;
+    margin: 0;
+    letter-spacing: 1px;
+    padding-bottom: 26px;
+  }
+
+  .mobile-btn {
+    background: $bp-blue;
+    color: $bp-white;
+    display: block;
+    max-width: 454px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
 }
 //#reserve-a-table {
 //  position: absolute;
@@ -191,9 +206,7 @@
 //  }
 //
 //}
-.mobile-btn {
-  width: 90%;
-}
+
 
 //.hidden-xs {
 //  @media screen and (max-width: 755px) {
