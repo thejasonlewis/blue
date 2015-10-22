@@ -26,3 +26,7 @@ $('#m-table-finder').click(function(){
 $('.close-container').click(function(){
     $('.mobile-find-a-table').hide();
 });
+
+$('.close').click(function(){
+    $("#reserve-a-table").hide();
+});

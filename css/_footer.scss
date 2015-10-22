@@ -75,7 +75,8 @@
   #map {
     border-bottom: 2px solid $bp-gray-68;
     color: $bp-gray-68;
-    padding-top: 9px;
+    float: left;
+    padding-top: 6px;
     margin: 0;
 
     &:hover {

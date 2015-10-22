@@ -9,6 +9,15 @@
 
 #reserve-a-table{
   border-bottom: 1px solid $bp-light-gray;
+
+  .close {
+    color: $bp-blue;
+    float: right;
+
+    &:hover {
+      color: $bp-d-blue;
+    }
+  }
 }
 #blue-plate-logo {
   width: 195px;
@@ -16,21 +25,49 @@
 
 }
 .top-bar-section ul li,.top-bar-section li:not(.has-form) a:not(.button) {
-  background: $bp-white;
-  color: $bp-blue;
+  background-color: #38404c;
+  color: $bp-white;
   font-family: lato;
-  @media screen and (max-width: 992px){
-    background-color: #38404c;
-    color: white;
+
+  @include responsive('xs-landscape') {
+    background-color: $bp-white;
+    color: $bp-blue;
   }
+  @include responsive('sm') {
+    background-color: $bp-white;
+    color: $bp-blue;
+
+  }
+  @include responsive('md') {
+    background: $bp-white;
+    color: $bp-blue;
+
+  }
+  @include responsive('lg') {
+    background: $bp-white;
+    color: $bp-blue;
+
+  }
+
+  &:hover {
+    color: $bp-blue;
+
+    @include responsive('md') {
+      background: $bp-white;
+      color: $bp-d-blue;
+
+    }
+    @include responsive('lg') {
+      color: $bp-d-blue;
+
+    }
+  }
+
 }
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background:$bp-white;
   color: #092456;
-  @media screen and (max-width: 992px){
-    background-color: #38404c;
-    }
-  }
+}
 .top-bar-section ul li>a.button {
   background-color: $bp-white;
   border: $bp-blue 1px solid;
