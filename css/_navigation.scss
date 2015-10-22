@@ -2,7 +2,11 @@
     background-color: white !important;
     padding-right: 81px;
     padding-top: 20px;
+  .toggle-topbar {
+    right: -80px;
+  }
 }
+
 #reserve-a-table{
   border-bottom: 1px solid $bp-light-gray;
 }
@@ -36,7 +40,7 @@
   width: 150px;
   height: 35px;
   padding-top: 9px;
-  margin-top: -6px;
+  margin-top: 3px;
 }
 .top-bar-section ul li>a.button:hover, .top-bar-section ul li>a.button:focus {
   background-color: $bp-blue;
@@ -47,7 +51,7 @@
   width: 150px;
   height: 35px;
   padding-top: 8px;
-  margin-top: -6px;
+  margin-top: 3px;
 }
 .top-bar.expanded .title-area {
   background-color: $bp-white;
@@ -118,6 +122,8 @@ label {
     }
   }
 }
+
+
 
 //@media only screen {
 //  .navigation-nav {

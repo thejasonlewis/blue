@@ -15,3 +15,14 @@ function sizeVideoFrame(){
 $(function () {
     sizeVideoFrame();
 });
+
+$(document).foundation();
+$(".find-table").click(function(){
+    $("#reserve-a-table").toggle();
+});
+$('#m-table-finder').click(function(){
+    $('.mobile-find-a-table').show();
+});
+$('.close-container').click(function(){
+    $('.mobile-find-a-table').hide();
+});

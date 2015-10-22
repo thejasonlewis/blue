@@ -78,10 +78,10 @@
             </h1>
           </li>
           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-          <li class="toggle-topbar menu-icon">
-            <a href="#"><span></span></a>
-            <a href="#" id="m-table-finder" class="button radius visible-for-medium-down">FIND A TABLE</a>
 
+          <li class="toggle-topbar menu-icon">
+            <a href="#" id="m-table-finder" class="button radius visible-for-small-down">FIND A TABLE</a>
+            <a href="#"><span></span></a>
           </li>
         </ul>
 
@@ -120,24 +120,24 @@
                     <div class="small-3 columns">
                       <label class="right inline">DATE</label>
                     </div>
-                    <div class="small-3 columns">
+                    <div class="date-input small-3 columns">
                       <input type="text" class="right-label" placeholder="">
                     </div>
-                    <div class="small-3 columns size">
+                    <div class="time-input small-3 columns size">
                       <label class="right inline">TIME</label>
                     </div>
                     <div class="small-3 columns">
-                      <input type="text" class="right-label" placeholder="">
+                      <input id="tsm"type="text" class="right-label" placeholder="">
                     </div>
                   </div>
-                  <div class="small-3 columns">
+                  <div class="mobile-party small-4 columns">
                     <label class="right inline">PARTY SIZE</label>
                   </div>
-                  <div class="small-3 columns">
-                    <input type="text" class="right-label" placeholder="">
+                  <div class="small-2 columns">
+                    <input id="psm" type="text" class="right-label" placeholder="">
                   </div>
                   <div class="small-6 columns">
-                    <a><img class="logo" src="img/Home-M.png" alt="label"></a>
+                    <a><img class="logo-mobile" src="img/Home-M.png" alt="label"></a>
                   </div>
 
                 </div>
@@ -150,7 +150,7 @@
                 </div>
               </div>
               <a href="#" class="mobile-btn button radius">FIND A TABLE</a>
-              <a class="close-container">Close Window</a>
+              <a id="close-window" class="close-container">Close Window</a>
             </form>
           </div>
         </div>
@@ -201,16 +201,7 @@
     <script src="js/foundation.min.js"></script>
     <script src="js/main.js"></script>
     <script>
-      $(document).foundation();
-      $(".find-table").click(function(){
-        $("#reserve-a-table").toggle();
-      });
-      $('#m-table-finder').click(function(){
-        $('.mobile-find-a-table').show();
-      });
-      $('.close-container').click(function(){
-        $('.mobile-find-a-table').hide();
-      });
+
     </script>
   </body>
 </html>

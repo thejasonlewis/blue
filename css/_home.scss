@@ -125,7 +125,7 @@
     background-color: #3b4350;
     color: $bp-white;
     padding: 10px 0;
-    height: 95px;
+    height: 91px;
 
 
     h2 {
@@ -181,6 +181,43 @@
 
   }
 }
+.date-input {
+  margin-left: -40px
+}
+.time-input {
+  padding-left: 73px !important;
+}
+.logo-mobile{
+  height: auto !important;
+  width: 94px !important;
+  margin-left: 28px;
+}
+.mobile-party {
+  margin-left: -26px;
+  padding-left: 26px;
+
+}
+.party-size-input {
+  margin-left: -31px;
+}
+#psm {
+    width: 45px !important;
+}
+#tsm {
+  width: 87px !important;
+  margin-left: -19px !important;
+}
+#close-window {
+  font-size: 12px !important;
+  font-family: lato;
+  margin: 0 0 10px 10px;
+}
+
+//#m-table-finder{
+//  float: right;
+//  margin:
+//}
+//#
 //#reserve-a-table {
 //  position: absolute;
 //  background-color: white;
