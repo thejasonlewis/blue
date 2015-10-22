@@ -2,9 +2,6 @@
     background-color: white !important;
     padding-right: 81px;
     padding-top: 20px;
-  @media screen and (max-width: 992px) {
-    position: absolute;
-  }
 }
 #reserve-a-table{
   border-bottom: 1px solid $bp-light-gray;
@@ -81,6 +78,11 @@ label {
     @media screen and (min-width: 992px) {
       display: none;
     }
+
+    a {
+      float: left;
+    }
+
     .find-table {
       right: 45px;
     }

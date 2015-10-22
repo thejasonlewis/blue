@@ -4,11 +4,6 @@
   padding-right: 81px;
   padding-top: 20px;
 }
-@media screen and (max-width: 992px) {
-  .top-bar {
-    position: absolute;
-  }
-}
 
 #reserve-a-table {
   border-bottom: 1px solid #abaeb1;
@@ -99,6 +94,9 @@ label {
   .navigation-nav .menu-icon {
     display: none;
   }
+}
+.navigation-nav .menu-icon a {
+  float: left;
 }
 .navigation-nav .menu-icon .find-table {
   right: 45px;
@@ -456,4 +454,7 @@ h5 {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
+}
+.mobile-find-a-table .control-label label, .mobile-find-a-table .control-label input {
+  margin-top: 36px;
 }

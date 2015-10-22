@@ -173,6 +173,13 @@
     margin-left: auto;
     width: 100%;
   }
+
+  .control-label {
+    label, input {
+      margin-top: 36px;
+    }
+
+  }
 }
 //#reserve-a-table {
 //  position: absolute;

@@ -74,14 +74,14 @@
       <nav class="navigation-nav top-bar row" data-topbar role="navigation">
         <ul class="title-area">
           <li class="name">
-            <h1 id="blue-plate-logo"><a href="#"><img src="img/Blue-Plate.png"  alt="Neighborhood"></a></h1>
+            <h1 id="blue-plate-logo"><a href="#"><img src="img/Blue-Plate.png"  alt="Neighborhood"></a>
+            </h1>
           </li>
           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-
-
           <li class="toggle-topbar menu-icon">
             <a href="#"><span></span></a>
-            <a href="#" class="find-table button radius">FIND A TABLE</a>
+            <a href="#" id="m-table-finder" class="button radius visible-for-medium-down">FIND A TABLE</a>
+
           </li>
         </ul>
 
@@ -89,7 +89,7 @@
           <!-- Right Nav Section -->
           <ul id="find-a-table" class="right">
             <li>
-              <a href="#" class="find-table button radius">FIND A TABLE</a>
+              <a href="#" class="find-table button radius hidden-for-medium-down">FIND A TABLE</a>
             </li>
           </ul>
 
@@ -111,27 +111,27 @@
             A neighborhood gem<br/>
             in the heart of the Mission District
           </h1>
-          <div class="row mobile-find-a-table">
+          <div class="row mobile-find-a-table hide">
             <form>
               <h4 id="table">FIND A TABLE</h4>
               <div id="mobile" class="row">
                 <div class="large-12 columns">
-                  <div id="mobile-left" class="row">
+                  <div id="mobile-left" class="row control-label">
                     <div class="small-3 columns">
-                      <label for="right-label" class="right inline">DATE</label>
+                      <label class="right inline">DATE</label>
                     </div>
                     <div class="small-3 columns">
                       <input type="text" class="right-label" placeholder="">
                     </div>
                     <div class="small-3 columns size">
-                      <label for="right-label" class="right inline">TIME</label>
+                      <label class="right inline">TIME</label>
                     </div>
                     <div class="small-3 columns">
                       <input type="text" class="right-label" placeholder="">
                     </div>
                   </div>
                   <div class="small-3 columns">
-                    <label for="right-label" class="right inline">PARTY SIZE</label>
+                    <label class="right inline">PARTY SIZE</label>
                   </div>
                   <div class="small-3 columns">
                     <input type="text" class="right-label" placeholder="">
@@ -204,6 +204,12 @@
       $(document).foundation();
       $(".find-table").click(function(){
         $("#reserve-a-table").toggle();
+      });
+      $('#m-table-finder').click(function(){
+        $('.mobile-find-a-table').show();
+      });
+      $('.close-container').click(function(){
+        $('.mobile-find-a-table').hide();
       });
     </script>
   </body>
