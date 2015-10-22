@@ -1,21 +1,4 @@
 #home-container {
-  //I don't think you need this but let me know what you were tryinf to do when I check in with you tomorrow
-  //@media screen and (max-width: 992px) {
-  //  .navigation-nav {
-  //  }
-  //  #background-photo {
-  //    background: url("../img/Home.png") no-repeat center center black;
-  //    -webkit-background-size: cover;
-  //    -moz-background-size: cover;
-  //    -o-background-size: cover;
-  //    background-size: cover;
-  //    width: 100%;
-  //  }
-  //  #footer {
-  //    position: fixed;
-  //    bottom: 0px;
-  //  }
-  //}
   #table {
     font-family: "lato";
     font-weight: bold;
@@ -75,7 +58,7 @@
   }
 
   #info-panel {
-    padding: 10px 0px;
+    padding: 10px 0;
     float: right;
   }
   img {
@@ -102,6 +85,7 @@
     -o-background-size: cover;
     background-size: cover;
     display: table;
+    position: relative;
     width: 100%;
     min-height: 371px;
 
@@ -165,38 +149,48 @@
   }
 }
 
-#reserve-a-table {
+.mobile-find-a-table {
+  background: $bp-white;
+  border-radius: 4px;
+  border: 1px solid #AAAAAA;
+  max-width: 540px;
   position: absolute;
-  background-color: white;
-  width: 88%;
-  margin-left: 35px;
-  @include responsive('xs-landscape') {
-
-
-  }
-  @include responsive('sm') {
-
-
-  }
-  @include responsive('md') {
-    display: none;
-  }
-  @include responsive('lg') {
-    display: none;
-  }
-  .mobile-right-label {
-    width: 115px;
-
-
-  }
-  .mobile-right-label-ps {
-    width: 50px;
-  }
-  label.right {
-    text-align: none;
-  }
-
+  top: 10px;
+  right: 0;
+  left: 0;
 }
+//#reserve-a-table {
+//  position: absolute;
+//  background-color: white;
+//  width: 88%;
+//  margin-left: 35px;
+//  @include responsive('xs-landscape') {
+//
+//
+//  }
+//  @include responsive('sm') {
+//
+//
+//  }
+//  @include responsive('md') {
+//    display: none;
+//  }
+//  @include responsive('lg') {
+//    display: none;
+//  }
+//  .mobile-right-label {
+//    width: 115px;
+//
+//
+//  }
+//  .mobile-right-label-ps {
+//    width: 50px;
+//  }
+//  label.right {
+//    text-align: none;
+//  }
+//
+//}
 .mobile-btn {
   width: 90%;
 }
@@ -210,7 +204,6 @@
 //  @media screen and(min-width: 755px) and (max-width: 992px) {
 //    display: none !important;
 //  }
-}
 
 
 
