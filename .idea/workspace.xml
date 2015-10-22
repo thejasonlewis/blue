@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f74729f-db45-4c52-8c69-01addd967864" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_footer.scss" afterPath="$PROJECT_DIR$/css/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_home.scss" afterPath="$PROJECT_DIR$/css/_home.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_navigation.scss" afterPath="$PROJECT_DIR$/css/_navigation.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,8 +70,8 @@
       <file leaf-file-name="_navigation.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/_navigation.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36052203">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.39041096">
+              <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -745,8 +740,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/_navigation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36052203">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.39041096">
+          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
           <folding />
         </state>
       </provider>

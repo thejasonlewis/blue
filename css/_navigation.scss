@@ -1,5 +1,5 @@
 .top-bar {
-    background-color: white !important;
+    background-color: $bp-white;
     padding-right: 81px;
     padding-top: 20px;
   .toggle-topbar {
@@ -30,11 +30,11 @@
   font-family: lato;
 
   @include responsive('xs-landscape') {
-    background-color: $bp-white;
-    color: $bp-blue;
+    background-color: $bp-navy;
+    color: $bp-white;
   }
   @include responsive('sm') {
-    background-color: $bp-white;
+    background-color: $bp-navy;
     color: $bp-blue;
 
   }
@@ -50,8 +50,19 @@
   }
 
   &:hover {
+    background: $bp-navy;
     color: $bp-blue;
 
+    @include responsive('xs-landscape') {
+      background-color: $bp-navy;
+      color: $bp-white;
+    }
+
+    @include responsive('sm') {
+       background: $bp-navy;
+       color: $bp-d-blue;
+
+     }
     @include responsive('md') {
       background: $bp-white;
       color: $bp-d-blue;
@@ -64,10 +75,7 @@
   }
 
 }
-.top-bar-section li:not(.has-form) a:not(.button):hover {
-  background:$bp-white;
-  color: #092456;
-}
+
 .top-bar-section ul li>a.button {
   background-color: $bp-white;
   border: $bp-blue 1px solid;
@@ -160,10 +168,3 @@ label {
   }
 }
 
-
-
-//@media only screen {
-//  .navigation-nav {
-//      width: 100%;
-//  }
-//}

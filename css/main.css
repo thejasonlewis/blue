@@ -1,6 +1,6 @@
 /* Responsive Mixin */
 .top-bar {
-  background-color: white !important;
+  background-color: white;
   padding-right: 81px;
   padding-top: 20px;
 }
@@ -31,13 +31,13 @@
 }
 @media screen and (min-width: 480px) {
   .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button) {
-    background-color: white;
-    color: #2c55a0;
+    background-color: #3b4350;
+    color: white;
   }
 }
 @media screen and (min-width: 768px) {
   .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button) {
-    background-color: white;
+    background-color: #3b4350;
     color: #2c55a0;
   }
 }
@@ -54,7 +54,20 @@
   }
 }
 .top-bar-section ul li:hover, .top-bar-section li:not(.has-form) a:not(.button):hover {
+  background: #3b4350;
   color: #2c55a0;
+}
+@media screen and (min-width: 480px) {
+  .top-bar-section ul li:hover, .top-bar-section li:not(.has-form) a:not(.button):hover {
+    background-color: #3b4350;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .top-bar-section ul li:hover, .top-bar-section li:not(.has-form) a:not(.button):hover {
+    background: #3b4350;
+    color: #232932;
+  }
 }
 @media screen and (min-width: 992px) {
   .top-bar-section ul li:hover, .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -66,11 +79,6 @@
   .top-bar-section ul li:hover, .top-bar-section li:not(.has-form) a:not(.button):hover {
     color: #232932;
   }
-}
-
-.top-bar-section li:not(.has-form) a:not(.button):hover {
-  background: white;
-  color: #092456;
 }
 
 .top-bar-section ul li > a.button {
