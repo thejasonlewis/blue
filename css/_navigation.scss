@@ -1,6 +1,7 @@
 .top-bar {
     background-color: white !important;
     padding-right: 81px;
+    padding-top: 20px;
   @media screen and (max-width: 992px) {
     position: absolute;
   }
@@ -74,7 +75,7 @@ label {
 }
 .navigation-nav {
   @media screen and (max-width: 992px) {
-    padding: 0px;
+    padding-top: 0px;
   }
   .menu-icon {
     @media screen and (min-width: 992px) {

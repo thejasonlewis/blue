@@ -165,7 +165,7 @@
   }
 }
 
-.mobile-find-a-table {
+#reserve-a-table {
   position: absolute;
   background-color: white;
   width: 88%;
@@ -197,7 +197,20 @@
   }
 
 }
+.mobile-btn {
+  width: 90%;
+}
 
+//.hidden-xs {
+//  @media screen and (max-width: 755px) {
+//    display: none !important;
+//  }
+//}
+//.hidden-sm {
+//  @media screen and(min-width: 755px) and (max-width: 992px) {
+//    display: none !important;
+//  }
+}
 
 
 
