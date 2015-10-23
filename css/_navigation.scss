@@ -2,6 +2,21 @@
     background-color: $bp-white;
 
     padding-top: 20px;
+  @include responsive('xs-landscape') {
+
+  }
+  @include responsive('sm') {
+
+
+  }
+  @include responsive('md') {
+    padding-right: 72px;
+
+  }
+  @include responsive('lg') {
+    padding-right: 72px;
+
+  }
 }
 
 #reserve-a-table{
