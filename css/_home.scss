@@ -181,32 +181,54 @@
 
   }
   .date-input {
-    margin-left: -40px
+    margin-right: 22px;
+    margin-left: -21px;
+  }
+  .date-mobile {
+    margin-left:  -15px;
+    padding-left: 1px;
+    letter-spacing: 1px;
   }
   .time-input {
-    padding-left: 73px !important;
+    margin-left: 10px;
+    padding-left: 15px;
+    letter-spacing: 1px;
   }
   .logo-mobile{
     height: auto !important;
-    width: 94px !important;
-    margin-left: 28px;
+    width: 79px !important;
+    margin-left: -23px;
   }
   .mobile-party {
-    margin-left: -26px;
-    padding-left: 26px;
-
+    margin-left: -15px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
   }
   .party-size-input {
     margin-left: -31px;
   }
-  #psm {
-    width: 45px !important;
+  .psm {
+    margin-right: 6px;
+    padding-left: 0px
   }
-  #tsm {
-    width: 87px !important;
-    margin-left: -19px !important;
+  .tsm {
+
+    margin-right: -10px;
   }
-
-
+  .party-input-width {
+    width: 41px;
+    height: 30px;
+  }
 }
+#table {
+    margin-bottom: 38px;
+  font-size: 24px !important;
+  }
 
+#close-window {
+  font-size: 12px;
+  color: #2c55a0;
+}
+.bottom-box {
+  margin-bottom: -10px;
+}
