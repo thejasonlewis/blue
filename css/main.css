@@ -231,6 +231,7 @@ h5 {
   background-color: #232932;
   border-top: 1px solid #3b4350;
   color: white;
+  height: 100%;
   padding-top: 60px;
 }
 #footer .columns {
@@ -330,6 +331,10 @@ h5 {
   color: white;
 }
 
+#home-container {
+  height: 100%;
+  min-height: 100%;
+}
 #home-container .table {
   font-family: "lato";
   font-weight: bold;
