@@ -1,9 +1,21 @@
 .top-bar {
     background-color: $bp-white;
-    padding-right: 81px;
+
     padding-top: 20px;
-  .toggle-topbar {
-    right: -80px;
+  @include responsive('xs-landscape') {
+
+  }
+  @include responsive('sm') {
+
+
+  }
+  @include responsive('md') {
+    padding-right: 72px;
+
+  }
+  @include responsive('lg') {
+    padding-right: 72px;
+
   }
 }
 
@@ -50,7 +62,7 @@
   }
 
   &:hover {
-    background: $bp-navy;
+    background: #38404c;
     color: $bp-blue;
 
     @include responsive('xs-landscape') {
@@ -120,6 +132,7 @@ label {
   box-shadow: 0 0 0 1px #aaabac,0 7px 0 1px #aaabac,0 14px 0 1px #aaabac !important;
 }
 .navigation-nav {
+
   @media screen and (max-width: 992px) {
     padding-top: 0px;
   }

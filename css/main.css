@@ -1,11 +1,17 @@
 /* Responsive Mixin */
 .top-bar {
   background-color: white;
-  padding-right: 81px;
   padding-top: 20px;
 }
-.top-bar .toggle-topbar {
-  right: -80px;
+@media screen and (min-width: 992px) {
+  .top-bar {
+    padding-right: 72px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .top-bar {
+    padding-right: 72px;
+  }
 }
 
 #reserve-a-table {
@@ -54,7 +60,7 @@
   }
 }
 .top-bar-section ul li:hover, .top-bar-section li:not(.has-form) a:not(.button):hover {
-  background: #3b4350;
+  background: #38404c;
   color: #2c55a0;
 }
 @media screen and (min-width: 480px) {
@@ -262,7 +268,7 @@ h5 {
 }
 @media screen and (min-width: 480px) {
   #footer .square {
-    height: 154px;
+    height: 150px;
     margin-top: 15px;
     width: 170px;
   }
@@ -505,27 +511,54 @@ h5 {
   margin-top: 36px;
 }
 .mobile-find-a-table .date-input {
-  margin-left: -40px;
+  margin-right: 22px;
+  margin-left: -21px;
+}
+.mobile-find-a-table .date-mobile {
+  margin-left: -15px;
+  padding-left: 1px;
+  letter-spacing: 1px;
 }
 .mobile-find-a-table .time-input {
-  padding-left: 73px !important;
+  margin-left: 10px;
+  padding-left: 15px;
+  letter-spacing: 1px;
 }
 .mobile-find-a-table .logo-mobile {
   height: auto !important;
-  width: 94px !important;
-  margin-left: 28px;
+  width: 79px !important;
+  margin-left: -23px;
 }
 .mobile-find-a-table .mobile-party {
-  margin-left: -26px;
-  padding-left: 26px;
+  margin-left: -15px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
 }
 .mobile-find-a-table .party-size-input {
   margin-left: -31px;
 }
-.mobile-find-a-table #psm {
-  width: 45px !important;
+.mobile-find-a-table .psm {
+  margin-right: 6px;
+  padding-left: 0px;
 }
-.mobile-find-a-table #tsm {
-  width: 87px !important;
-  margin-left: -19px !important;
+.mobile-find-a-table .tsm {
+  margin-right: -10px;
+}
+.mobile-find-a-table .party-input-width {
+  width: 41px;
+  height: 30px;
+}
+
+#table {
+  margin-bottom: 38px;
+  font-size: 24px !important;
+}
+
+#close-window {
+  font-size: 12px;
+  color: #2c55a0;
+}
+
+.bottom-box {
+  margin-bottom: -10px;
 }
