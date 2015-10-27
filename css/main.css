@@ -231,8 +231,18 @@ h5 {
   background-color: #232932;
   border-top: 1px solid #3b4350;
   color: white;
+  display: table;
   height: 100%;
   padding-top: 60px;
+  max-height: 474px;
+}
+#footer .footer-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+#footer .footer-inner .vertical {
+  margin: 0 auto;
+  max-width: 62.5rem;
 }
 #footer .columns {
   text-align: center;
@@ -427,12 +437,12 @@ h5 {
 }
 @media screen and (min-width: 992px) {
   #home-container #background-photo {
-    min-height: 500px;
+    min-height: 600px;
   }
 }
 @media screen and (min-width: 1200px) {
   #home-container #background-photo {
-    min-height: 571px;
+    min-height: 800px;
   }
 }
 #home-container #background-photo .vertical {

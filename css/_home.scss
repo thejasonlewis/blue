@@ -93,10 +93,10 @@
       min-height: 471px;
     }
     @include responsive('md') {
-      min-height: 500px;
+      min-height: 600px;
     }
     @include responsive('lg') {
-      min-height: 571px;
+      min-height: 800px;
     }
 
     .vertical {
