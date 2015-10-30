@@ -1,0 +1,50 @@
+.our-menu {
+
+  .left-menu {
+
+    h3 {
+      color: $bp-blue;
+      margin-bottom: 20px;
+    }
+
+    ul {
+
+      list-style: none;
+
+      li {
+        a {
+          color: $bp-gray;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+
+
+  .menu-section {
+
+    h3 {
+      color: $bp-gray;
+      font-family: lato-bold;
+    }
+
+    .menu-items {
+
+      list-style: none;
+
+      dt {
+        color: $bp-blue;
+      }
+      dd {
+        color: $bp-gray;
+      }
+
+    }
+
+    &:first-child {
+      margin-top: 46px;
+    }
+  }
+
+}

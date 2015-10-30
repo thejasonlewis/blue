@@ -600,3 +600,31 @@ h5 {
 .bottom-box {
   margin-bottom: -10px;
 }
+
+.our-menu .left-menu h3 {
+  color: #2c55a0;
+  margin-bottom: 20px;
+}
+.our-menu .left-menu ul {
+  list-style: none;
+}
+.our-menu .left-menu ul li a {
+  color: #717d8e;
+  text-transform: uppercase;
+}
+.our-menu .menu-section h3 {
+  color: #717d8e;
+  font-family: lato-bold;
+}
+.our-menu .menu-section .menu-items {
+  list-style: none;
+}
+.our-menu .menu-section .menu-items dt {
+  color: #2c55a0;
+}
+.our-menu .menu-section .menu-items dd {
+  color: #717d8e;
+}
+.our-menu .menu-section:first-child {
+  margin-top: 46px;
+}
