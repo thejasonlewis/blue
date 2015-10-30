@@ -1,0 +1,255 @@
+.home {
+  height: 100%;
+  min-height: 100%;
+
+  .table {
+    font-family: "lato";
+    font-weight: bold;
+    font-size: 18px;
+    color: #2c55a0;
+    letter-spacing: 1px;
+    margin-bottom: 26px;
+  }
+  .logo {
+    height: auto;
+    width: 94px;
+    margin-left: -13px;
+  }
+  #party {
+    margin-right: 89px;
+    margin-left: -72px;
+  }
+  #right {
+    float: right;
+    text-align: left;
+    width: 377px;
+    padding-right: 183px;
+  }
+  .hours {
+    font-size: 12px;
+    font-family: lato;
+    padding-top: 35px;
+    line-height: inherit;
+  }
+  .events {
+    font-size: 12px;
+    font-family: lato;
+    line-height: inherit;
+  }
+  label.right {
+    text-align: left;
+
+  }
+  .right-label {
+    width: 96px;
+    height: 29px;
+    margin-right: 22px;
+  }
+  .size {
+    word-spacing: 6px;
+  }
+  .inline {
+    font-family: "lato";
+    font-size: 12px;
+    color: #2c55a0;
+  }
+
+  #info-panel {
+    padding: 10px 0;
+    float: right;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .party-size {
+    width: 46px;
+    height: 30px;
+  }
+  #blue-plate {
+    width: 194px;
+    height: auto;
+  }
+  #background-photo {
+    background: url("http://blueplate.capacitr.com/wp-content/uploads/2015/10/home.jpg") no-repeat center center black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: table;
+    position: relative;
+    width: 100%;
+    min-height: 471px;
+
+    @include responsive('xs-landscape') {
+      min-height: 471px;
+    }
+    @include responsive('sm') {
+      min-height: 571px;
+    }
+    @include responsive('md') {
+      min-height: 600px;
+    }
+    @include responsive('lg') {
+      min-height: 800px;
+    }
+
+    .vertical {
+      display: table-cell;
+      vertical-align: middle;
+
+      h1 {
+        color: $bp-white;
+        font-family: lato;
+        font-size: 16pt;
+
+        @include responsive('xs-landscape') {
+          font-size: 16pt;
+        }
+        @include responsive('sm') {
+          font-size: 26pt;
+        }
+        @include responsive('md') {
+          font-size: 36pt;
+        }
+        @include responsive('lg') {
+          font-size: 36pt;
+        }
+      }
+    }
+  }
+  #dial {
+    font-size: 24px;
+    background-color: #3b4350;
+    color: $bp-white;
+    padding: 10px 0;
+    height: 91px;
+
+
+    h2 {
+      color: $bp-white;
+      font-size: 24px;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 21px;
+      font-family: lato;
+
+      span {
+        padding-right: 15px;
+      }
+    }
+  }
+}
+
+.mobile-find-a-table {
+  background: $bp-white;
+  border-radius: 4px;
+  border: 1px solid #AAAAAA;
+  max-width: 340px;
+  padding: 20px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  left: 0;
+
+  @include responsive('xs-landscape') {
+    max-width: 440px;
+    padding: 20px;
+
+  }
+  @include responsive('sm') {
+    max-width: 500px;
+    padding: 20px;
+
+  }
+  @include responsive('md') {
+    max-width: 540px;
+    padding: 40px;
+
+  }
+  @include responsive('lg') {
+    max-width: 540px;
+    padding: 40px;
+
+  }
+
+  h4 {
+    border-bottom: 1px solid #abaeb1;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2c55a0;
+    margin: 0;
+    letter-spacing: 1px;
+    padding-bottom: 26px;
+  }
+
+  .mobile-btn {
+    background: $bp-blue;
+    color: $bp-white;
+    display: block;
+    max-width: 454px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+
+  .control-label {
+    label, input {
+      margin-top: 36px;
+    }
+
+  }
+  .date-input {
+    margin-right: 22px;
+    margin-left: -21px;
+  }
+  .date-mobile {
+    margin-left:  -15px;
+    padding-left: 1px;
+    letter-spacing: 1px;
+  }
+  .time-input {
+    margin-left: 10px;
+    padding-left: 15px;
+    letter-spacing: 1px;
+  }
+  .logo-mobile{
+    height: auto !important;
+    width: 79px !important;
+    margin-left: -23px;
+  }
+  .mobile-party {
+    margin-left: -15px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+  }
+  .party-size-input {
+    margin-left: -31px;
+  }
+  .psm {
+    margin-right: 6px;
+    padding-left: 0px
+  }
+  .tsm {
+
+    margin-right: -10px;
+  }
+  .party-input-width {
+    width: 41px;
+    height: 30px;
+  }
+}
+#table {
+    margin-bottom: 38px;
+  font-size: 24px !important;
+  }
+
+#close-window {
+  font-size: 12px;
+  color: #2c55a0;
+}
+.bottom-box {
+  margin-bottom: -10px;
+}

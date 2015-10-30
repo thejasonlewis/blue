@@ -1,0 +1,50 @@
+/*
+  Buttons, typography and any shared styles go here
+
+*/
+html, body {
+  height:100%;
+}
+body {
+  max-width: 100%;
+  min-height: 100%;
+  font-family: lato;
+}
+
+
+.button {
+  background-color: white;
+  border: solid 1px #2c55a0;
+  color: #2c55a0;
+  font-family: lato;
+  font-weight: bold;
+  font-size: 12px;
+  width: 158px;
+  height: 35px;
+  padding-top: 8px;
+}
+.button:hover, .button:focus {
+  background-color: #2c55a0;
+  border: solid 1px;
+  border-color: #2c55a0;
+  font-weight: bold;
+}
+
+/*
+  typography
+*/
+
+h4, h5 {
+  font-family: lato;
+  color: white;
+  text-align: left;
+}
+
+h5 {
+  font-size: 14px;
+  color: $bp-gray;
+  line-height: 105%;
+}
+meta.foundation-data-attribute-namespace {
+  font-family: false;
+}

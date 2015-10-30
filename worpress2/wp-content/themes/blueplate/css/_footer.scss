@@ -1,0 +1,133 @@
+#footer {
+  background-color: $bp-d-blue;
+  border-top: 1px solid $bp-navy;
+  color: $bp-white;
+  height: 100%;
+  max-height: 790px;
+  padding-top: 2%;
+
+  @include responsive('xs-landscape'){
+    max-height: 790px;
+  }
+  @include responsive('sm'){
+    max-height: 790px;
+  }
+  @include responsive('md'){
+    max-height: 632px;
+  }
+  @include responsive('lg'){
+    max-height: 474px;
+  }
+
+  .columns {
+    text-align: center;
+
+    @include responsive('xs-landscape'){
+      text-align: center;
+    }
+    @include responsive('sm'){
+      text-align: center;
+    }
+    @include responsive('md'){
+      text-align: left;
+    }
+    @include responsive('lg'){
+      text-align: left;
+    }
+
+    h5 {
+      padding: 0;
+    }
+  }
+  .hours-list {
+    list-style: none;
+
+    li {
+      color: $bp-gray;
+      font-family: lato-regular, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+    }
+  }
+  .square {
+    background: $bp-blue;
+    border-radius: 2px;
+    float: left;
+    height: 60px;
+    margin: 15px 6px 6px 6px;
+    width: 61px;
+
+    //@include responsive('xs-landscape'){
+    //  height: 150px;
+    //  margin-top: 15px;
+    //  margin-left: auto;
+    //  margin-right: 6px;
+    //  width: 170px;
+    //}
+    //@include responsive('sm'){
+    //  margin-top: 0;
+    //  margin-left: auto;
+    //  margin-right: 6px;
+    //  height: 120px;
+    //  width: 120px;
+    //
+    //}
+    //@include responsive('md'){
+    //  height: 60px;
+    //  margin-top: 0;
+    //  margin-right: 5px;
+    //  width: 68px;
+    //}
+    //@include responsive('lg'){
+    //  height: 60px;
+    //  margin-top: 0;
+    //  margin-right: 5px;
+    //  width: 68px;
+    //}
+  }
+
+  .copyright {
+    margin-top: 2%;
+
+    p {
+      color: $bp-gray;
+      font-size: 10pt;
+      text-align: center;
+      @include responsive('xs-landscape'){
+        text-align: center;
+      }
+      @include responsive('sm'){
+        text-align: center;
+      }
+      @include responsive('md'){
+        text-align: left;
+      }
+      @include responsive('lg'){
+        text-align: left;
+      }
+    }
+
+    a {
+      color: $bp-gray;
+    }
+  }
+
+  #map {
+    border-bottom: 2px solid $bp-gray-68;
+    color: $bp-gray-68;
+    float: left;
+    padding-top: 6px;
+    margin: 0;
+
+    &:hover {
+      color: $bp-white;
+    }
+  }
+
+  .insta-feed {
+    list-style: none;
+
+    li {
+      float: left;
+    }
+  }
+}
