@@ -5,13 +5,15 @@
     h3 {
       color: $bp-blue;
       margin-bottom: 20px;
+      margin-top: 50px;
     }
 
     ul {
-
+      margin-top: 53px;
       list-style: none;
 
       li {
+        margin: 20px 0;
         a {
           color: $bp-gray;
           text-transform: uppercase;
@@ -19,8 +21,6 @@
       }
     }
   }
-
-
 
   .menu-section {
 
@@ -43,8 +43,16 @@
     }
 
     &:first-child {
-      margin-top: 46px;
+      margin-top: 128px;
+    }
+    &:last-child {
+      margin-bottom: 5%;
     }
   }
-
+  ul {
+    margin-left: 0px;
+  }
+}
+.kitchen-photo{
+  margin-top: 30px;
 }
