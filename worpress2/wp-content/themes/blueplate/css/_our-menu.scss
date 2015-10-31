@@ -1,0 +1,62 @@
+.page-id-6 {
+  .our-menu {
+
+    .left-menu {
+
+      h3 {
+        color: $bp-blue;
+        margin-bottom: 20px;
+      }
+
+      ul {
+        margin-top: 53px;
+        list-style: none;
+
+        li {
+          margin: 20px 0;
+          a {
+            color: $bp-gray;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+
+    .menu-section {
+
+      h3 {
+        color: $bp-gray;
+        font-family: lato-bold;
+      }
+
+      .menu-items {
+
+        list-style: none;
+
+        dt {
+          color: $bp-blue;
+        }
+        dd {
+          color: $bp-gray;
+        }
+
+      }
+
+
+      &:last-child {
+        margin-bottom: 5%;
+      }
+    }
+
+    .first-child {
+      margin-top: 68px;
+    }
+
+    ul {
+      margin-left: 0px;
+    }
+  }
+  .kitchen-photo{
+    width: 100%;
+  }
+}

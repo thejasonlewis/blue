@@ -1,39 +1,46 @@
 @import url(css/foundation.css);
 /* Responsive Mixin */
 .top-bar {
-  background-color: white;
+  background-color: #fff;
   margin: 26px auto;
 }
+
 .top-bar .m-find-table {
   margin-top: -16px;
   position: absolute;
   right: 46px;
   top: 50%;
 }
+
 .top-bar .name h1 a {
   padding: 0;
   margin-left: 25px;
 }
+
 @media screen and (min-width: 480px) {
   .top-bar .name h1 a {
     margin-left: 25px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .top-bar .name h1 a {
     margin-left: 25px;
   }
 }
+
 @media screen and (min-width: 992px) {
   .top-bar .name h1 a {
     margin-left: 25px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .top-bar .name h1 a {
     margin-left: 0;
   }
 }
+
 .top-bar .expanded {
   margin-bottom: 0;
 }
@@ -41,65 +48,76 @@
 #reserve-a-table {
   border-bottom: 1px solid #abaeb1;
 }
+
 #reserve-a-table .close {
   color: #2c55a0;
   float: right;
 }
+
 #reserve-a-table .close:hover {
   color: #232932;
 }
 
 .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button) {
   background-color: #38404c;
-  color: white;
+  color: #fff;
   font-family: lato-regular, Helvetica, Arial, sans-serif;
 }
+
 @media screen and (min-width: 480px) {
   .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button) {
     background-color: #3b4350;
-    color: white;
+    color: #fff;
   }
 }
+
 @media screen and (min-width: 768px) {
   .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button) {
     background-color: #3b4350;
     color: #2c55a0;
   }
 }
+
 @media screen and (min-width: 992px) {
   .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button) {
-    background: white;
+    background: #fff;
     color: #2c55a0;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button) {
-    background: white;
+    background: #fff;
     color: #2c55a0;
   }
 }
+
 .top-bar-section ul li:hover, .top-bar-section li:not(.has-form) a:not(.button):hover {
   background: #38404c;
   color: #2c55a0;
 }
+
 @media screen and (min-width: 480px) {
   .top-bar-section ul li:hover, .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #3b4350;
-    color: white;
+    color: #fff;
   }
 }
+
 @media screen and (min-width: 768px) {
   .top-bar-section ul li:hover, .top-bar-section li:not(.has-form) a:not(.button):hover {
     background: #3b4350;
     color: #232932;
   }
 }
+
 @media screen and (min-width: 992px) {
   .top-bar-section ul li:hover, .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: white;
+    background: #fff;
     color: #232932;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .top-bar-section ul li:hover, .top-bar-section li:not(.has-form) a:not(.button):hover {
     color: #232932;
@@ -107,7 +125,7 @@
 }
 
 .top-bar-section ul li > a.button {
-  background-color: white;
+  background-color: #fff;
   border: #2c55a0 1px solid;
   color: #2c55a0;
   font-family: lato;
@@ -131,7 +149,7 @@
 }
 
 .top-bar.expanded .title-area {
-  background-color: white;
+  background-color: #fff;
 }
 
 .button:hover, .button:focus {
@@ -151,15 +169,17 @@ label {
 }
 
 .top-bar .toggle-topbar a span::after {
-  box-shadow: 0 0 0 1px #aaabac,0 7px 0 1px #aaabac,0 14px 0 1px #aaabac !important;
+  box-shadow: 0 0 0 1px #aaabac, 0 7px 0 1px #aaabac, 0 14px 0 1px #aaabac !important;
 }
 
 .navigation-nav .menu-icon a {
   float: left;
 }
+
 .navigation-nav .menu-icon .find-table {
   right: 45px;
 }
+
 .navigation-nav .menu-icon .button.radius {
   background-color: white;
   border: solid 2px #2c55a0;
@@ -171,6 +191,7 @@ label {
   height: 35px;
   padding: 0px;
 }
+
 .navigation-nav .menu-icon .button:hover, .navigation-nav .menu-icon .button:focus {
   background-color: #2c55a0;
   border: solid 1px;
@@ -235,65 +256,78 @@ meta.foundation-data-attribute-namespace {
 #footer {
   background-color: #232932;
   border-top: 1px solid #3b4350;
-  color: white;
+  color: #fff;
   height: 100%;
   max-height: 790px;
   padding-top: 2%;
 }
+
 @media screen and (min-width: 480px) {
   #footer {
     max-height: 790px;
   }
 }
+
 @media screen and (min-width: 768px) {
   #footer {
     max-height: 790px;
   }
 }
+
 @media screen and (min-width: 992px) {
   #footer {
     max-height: 632px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   #footer {
     max-height: 474px;
   }
 }
+
 #footer .columns {
   text-align: center;
 }
+
 @media screen and (min-width: 480px) {
   #footer .columns {
     text-align: center;
   }
 }
+
 @media screen and (min-width: 768px) {
   #footer .columns {
     text-align: center;
   }
 }
+
 @media screen and (min-width: 992px) {
   #footer .columns {
     text-align: left;
   }
 }
+
 @media screen and (min-width: 1200px) {
   #footer .columns {
     text-align: left;
   }
 }
+
 #footer .columns h5 {
   padding: 0;
 }
+
 #footer .hours-list {
   list-style: none;
 }
+
 #footer .hours-list li {
   color: #717d8e;
   font-family: lato-regular, Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
+
 #footer .square {
   background: #2c55a0;
   border-radius: 2px;
@@ -302,37 +336,45 @@ meta.foundation-data-attribute-namespace {
   margin: 15px 6px 6px 6px;
   width: 61px;
 }
+
 #footer .copyright {
   margin-top: 2%;
 }
+
 #footer .copyright p {
   color: #717d8e;
   font-size: 10pt;
   text-align: center;
 }
+
 @media screen and (min-width: 480px) {
   #footer .copyright p {
     text-align: center;
   }
 }
+
 @media screen and (min-width: 768px) {
   #footer .copyright p {
     text-align: center;
   }
 }
+
 @media screen and (min-width: 992px) {
   #footer .copyright p {
     text-align: left;
   }
 }
+
 @media screen and (min-width: 1200px) {
   #footer .copyright p {
     text-align: left;
   }
 }
+
 #footer .copyright a {
   color: #717d8e;
 }
+
 #footer #map {
   border-bottom: 2px solid #686b6f;
   color: #686b6f;
@@ -340,12 +382,15 @@ meta.foundation-data-attribute-namespace {
   padding-top: 6px;
   margin: 0;
 }
+
 #footer #map:hover {
-  color: white;
+  color: #fff;
 }
+
 #footer .insta-feed {
   list-style: none;
 }
+
 #footer .insta-feed li {
   float: left;
 }
@@ -354,6 +399,7 @@ meta.foundation-data-attribute-namespace {
   height: 100%;
   min-height: 100%;
 }
+
 .home .table {
   font-family: "lato";
   font-weight: bold;
@@ -362,64 +408,78 @@ meta.foundation-data-attribute-namespace {
   letter-spacing: 1px;
   margin-bottom: 26px;
 }
+
 .home .logo {
   height: auto;
   width: 94px;
   margin-left: -13px;
 }
+
 .home #party {
   margin-right: 89px;
   margin-left: -72px;
 }
+
 .home #right {
   float: right;
   text-align: left;
   width: 377px;
   padding-right: 183px;
 }
+
 .home .hours {
   font-size: 12px;
   font-family: lato;
   padding-top: 35px;
   line-height: inherit;
 }
+
 .home .events {
   font-size: 12px;
   font-family: lato;
   line-height: inherit;
 }
+
 .home label.right {
   text-align: left;
 }
+
 .home .right-label {
   width: 96px;
   height: 29px;
   margin-right: 22px;
 }
+
 .home .size {
   word-spacing: 6px;
 }
+
 .home .inline {
   font-family: "lato";
   font-size: 12px;
   color: #2c55a0;
 }
+
 .home #info-panel {
   padding: 10px 0;
   float: right;
 }
+
 .home h4 {
   font-size: 16px;
   font-weight: bold;
 }
+
 .home .party-size {
   width: 46px;
   height: 30px;
 }
+
 .home #blue-plate {
   width: 194px;
   height: auto;
 }
+
 .home #background-photo {
   background: url("http://blueplate.capacitr.com/wp-content/uploads/2015/10/home.jpg") no-repeat center center black;
   -webkit-background-size: cover;
@@ -431,76 +491,89 @@ meta.foundation-data-attribute-namespace {
   width: 100%;
   min-height: 471px;
 }
+
 @media screen and (min-width: 480px) {
   .home #background-photo {
     min-height: 471px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .home #background-photo {
     min-height: 571px;
   }
 }
+
 @media screen and (min-width: 992px) {
   .home #background-photo {
     min-height: 600px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .home #background-photo {
     min-height: 800px;
   }
 }
+
 .home #background-photo .vertical {
   display: table-cell;
   vertical-align: middle;
 }
+
 .home #background-photo .vertical h1 {
-  color: white;
+  color: #fff;
   font-family: lato;
   font-size: 16pt;
 }
+
 @media screen and (min-width: 480px) {
   .home #background-photo .vertical h1 {
     font-size: 16pt;
   }
 }
+
 @media screen and (min-width: 768px) {
   .home #background-photo .vertical h1 {
     font-size: 26pt;
   }
 }
+
 @media screen and (min-width: 992px) {
   .home #background-photo .vertical h1 {
     font-size: 36pt;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .home #background-photo .vertical h1 {
     font-size: 36pt;
   }
 }
+
 .home #dial {
   font-size: 24px;
   background-color: #3b4350;
-  color: white;
+  color: #fff;
   padding: 10px 0;
   height: 91px;
 }
+
 .home #dial h2 {
-  color: white;
+  color: #fff;
   font-size: 24px;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 21px;
   font-family: lato;
 }
+
 .home #dial h2 span {
   padding-right: 15px;
 }
 
 .mobile-find-a-table {
-  background: white;
+  background: #fff;
   border-radius: 4px;
   border: 1px solid #AAAAAA;
   max-width: 340px;
@@ -510,30 +583,35 @@ meta.foundation-data-attribute-namespace {
   right: 0;
   left: 0;
 }
+
 @media screen and (min-width: 480px) {
   .mobile-find-a-table {
     max-width: 440px;
     padding: 20px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .mobile-find-a-table {
     max-width: 500px;
     padding: 20px;
   }
 }
+
 @media screen and (min-width: 992px) {
   .mobile-find-a-table {
     max-width: 540px;
     padding: 40px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .mobile-find-a-table {
     max-width: 540px;
     padding: 40px;
   }
 }
+
 .mobile-find-a-table h4 {
   border-bottom: 1px solid #abaeb1;
   font-weight: bold;
@@ -543,52 +621,63 @@ meta.foundation-data-attribute-namespace {
   letter-spacing: 1px;
   padding-bottom: 26px;
 }
+
 .mobile-find-a-table .mobile-btn {
   background: #2c55a0;
-  color: white;
+  color: #fff;
   display: block;
   max-width: 454px;
   margin-right: auto;
   margin-left: auto;
   width: 100%;
 }
+
 .mobile-find-a-table .control-label label, .mobile-find-a-table .control-label input {
   margin-top: 36px;
 }
+
 .mobile-find-a-table .date-input {
   margin-right: 22px;
   margin-left: -21px;
 }
+
 .mobile-find-a-table .date-mobile {
   margin-left: -15px;
   padding-left: 1px;
   letter-spacing: 1px;
 }
+
 .mobile-find-a-table .time-input {
   margin-left: 10px;
   padding-left: 15px;
   letter-spacing: 1px;
 }
+
 .mobile-find-a-table .logo-mobile {
   height: auto !important;
   width: 79px !important;
   margin-left: -23px;
 }
+
 .mobile-find-a-table .mobile-party {
   margin-left: -15px;
   word-spacing: 2px;
   letter-spacing: 1px;
 }
+
 .mobile-find-a-table .party-size-input {
   margin-left: -31px;
 }
+
 .mobile-find-a-table .psm {
   margin-right: 6px;
   padding-left: 0px;
 }
+
 .mobile-find-a-table .tsm {
   margin-right: -10px;
 }
+
 .mobile-find-a-table .party-input-width {
   width: 41px;
   height: 30px;
@@ -606,4 +695,56 @@ meta.foundation-data-attribute-namespace {
 
 .bottom-box {
   margin-bottom: -10px;
+}
+
+.page-id-6 .our-menu .left-menu h3 {
+  color: #2c55a0;
+  margin-bottom: 20px;
+}
+
+.page-id-6 .our-menu .left-menu ul {
+  margin-top: 53px;
+  list-style: none;
+}
+
+.page-id-6 .our-menu .left-menu ul li {
+  margin: 20px 0;
+}
+
+.page-id-6 .our-menu .left-menu ul li a {
+  color: #717d8e;
+  text-transform: uppercase;
+}
+
+.page-id-6 .our-menu .menu-section h3 {
+  color: #717d8e;
+  font-family: lato-bold;
+}
+
+.page-id-6 .our-menu .menu-section .menu-items {
+  list-style: none;
+}
+
+.page-id-6 .our-menu .menu-section .menu-items dt {
+  color: #2c55a0;
+}
+
+.page-id-6 .our-menu .menu-section .menu-items dd {
+  color: #717d8e;
+}
+
+.page-id-6 .our-menu .menu-section:last-child {
+  margin-bottom: 5%;
+}
+
+.page-id-6 .our-menu .first-child {
+  margin-top: 68px;
+}
+
+.page-id-6 .our-menu ul {
+  margin-left: 0px;
+}
+
+.page-id-6 .kitchen-photo {
+  width: 100%;
 }

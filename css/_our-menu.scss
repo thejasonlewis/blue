@@ -42,9 +42,10 @@
 
     }
 
-    &:first-child {
+    .first-child {
       margin-top: 128px;
     }
+
     &:last-child {
       margin-bottom: 5%;
     }
@@ -53,6 +54,7 @@
     margin-left: 0px;
   }
 }
+
 .kitchen-photo{
-  margin-top: 30px;
+  width: 100%;
 }
