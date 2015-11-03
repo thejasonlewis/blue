@@ -112,7 +112,7 @@
 
       <div class="row our-menu">
         <!-- img goes here 100% no .row -->
-        <div class="columns small-4 left-menu">
+        <div class="columns medium-4 hidden-for-small-down left-menu">
           <h3 class="small-12">Our Menu</h3>
           <ul>
             <li><a>Small Plates</a></li>
@@ -120,10 +120,12 @@
             <li><a>Sides</a></li>
           </ul>
         </div>
-        <div class="columns small-8">
+        <div class="columns medium-8 small-12">
           <div class="row">
             <!-- each section is the categories for the menu -->
             <div class="menu-section columns small-12">
+              <h2 class="title visible-for-small-only">Our Menu</h2>
+
               <h3>SMALL PLATES</h3>
               <ul class="menu-items">
                 <!-- each li is a menu item -->
@@ -420,6 +422,57 @@
           </div>
 
         </div>
+        <div class="mobile-find-a-table hide">
+          <form>
+            <div class="row">
+              <h4 id="table">FIND A TABLE</h4>
+              <div class="columns small-6">
+                <div class="row">
+                  <div class="date-mobile small-4 columns">
+                    <label class="right inline">DATE</label>
+                  </div>
+                  <div class="date-input small-8 columns">
+                    <input type="text" class="right-label" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="columns small-6">
+                <div class="row">
+                  <div class="time-input small-4 columns size">
+                    <label class="right inline">TIME</label>
+                  </div>
+                  <div class="tsm small-8 columns">
+                    <input type="text" class="right-label" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="columns small-6">
+                <div class="row">
+                  <div class="mobile-party small-7 columns">
+                    <label class="right inline">PARTY SIZE</label>
+                  </div>
+                  <div class="psm small-5 columns">
+                    <input type="text" class="party-input-width" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="columns small-6">
+                <div class="row">
+                  <div class="small-12 columns">
+                    <a><img class="logo-mobile" src="img/Home-M.png" alt="label"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="bottom-box columns small-12 text-center">
+                <a href="#" class="mobile-btn button radius">FIND A TABLE</a>
+                <a id="close-window" class="close-container">close window</a>
+              </div>
+
+            </div>
+
+          </form>
+        </div>
+
       </div>
 
       <div id="dial" class="small-12 visible-for-small-only text-center">

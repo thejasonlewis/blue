@@ -23,6 +23,11 @@
   }
 
   .menu-section {
+    h2 {
+      color: $bp-blue;
+      margin-bottom: 20px;
+      margin-top: 30px;
+    }
 
     h3 {
       color: $bp-gray;
@@ -30,8 +35,11 @@
     }
 
     .menu-items {
-
+      margin-left: auto;
+      margin-right: auto;
       list-style: none;
+
+
 
       dt {
         color: $bp-blue;

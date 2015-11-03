@@ -1,11 +1,13 @@
 .page-id-6 {
   .our-menu {
+    position: relative;
 
     .left-menu {
 
       h3 {
         color: $bp-blue;
         margin-bottom: 20px;
+        margin-top: 50px;
       }
 
       ul {
@@ -23,6 +25,11 @@
     }
 
     .menu-section {
+      h2 {
+        color: $bp-blue;
+        margin-bottom: 20px;
+        margin-top: 30px;
+      }
 
       h3 {
         color: $bp-gray;
@@ -30,8 +37,11 @@
       }
 
       .menu-items {
-
+        margin-left: auto;
+        margin-right: auto;
         list-style: none;
+
+
 
         dt {
           color: $bp-blue;
@@ -42,16 +52,14 @@
 
       }
 
+      .first-child {
+        margin-top: 128px;
+      }
 
       &:last-child {
         margin-bottom: 5%;
       }
     }
-
-    .first-child {
-      margin-top: 68px;
-    }
-
     ul {
       margin-left: 0px;
     }
