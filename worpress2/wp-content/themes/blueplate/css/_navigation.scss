@@ -7,6 +7,11 @@
     position: absolute;
     right: 46px;
     top: 50%;
+
+    .m-table-finder {
+      padding: 10px 0;
+      width: 120px;
+    }
   }
 
   .name {
@@ -14,6 +19,27 @@
       a {
         padding: 0;
         margin-left: 25px;
+
+        img {
+          width: 56%;
+
+          @include responsive('xs-landscape') {
+            width: 56%;
+
+          }
+          @include responsive('sm') {
+            width: auto;
+
+          }
+          @include responsive('md') {
+            width: auto;
+
+          }
+          @include responsive('lg') {
+            width: auto;
+
+          }
+        }
 
         @include responsive('xs-landscape') {
           margin-left: 25px;

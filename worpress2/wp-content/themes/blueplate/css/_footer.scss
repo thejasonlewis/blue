@@ -20,13 +20,13 @@
   }
 
   .columns {
-    text-align: center;
+    text-align: left;
 
     @include responsive('xs-landscape'){
-      text-align: center;
+      text-align: left;
     }
     @include responsive('sm'){
-      text-align: center;
+      text-align: left;
     }
     @include responsive('md'){
       text-align: left;
@@ -53,36 +53,9 @@
     border-radius: 2px;
     float: left;
     height: 60px;
-    margin: 15px 6px 6px 6px;
+    margin: 15px 6px 0 0;
     width: 61px;
 
-    //@include responsive('xs-landscape'){
-    //  height: 150px;
-    //  margin-top: 15px;
-    //  margin-left: auto;
-    //  margin-right: 6px;
-    //  width: 170px;
-    //}
-    //@include responsive('sm'){
-    //  margin-top: 0;
-    //  margin-left: auto;
-    //  margin-right: 6px;
-    //  height: 120px;
-    //  width: 120px;
-    //
-    //}
-    //@include responsive('md'){
-    //  height: 60px;
-    //  margin-top: 0;
-    //  margin-right: 5px;
-    //  width: 68px;
-    //}
-    //@include responsive('lg'){
-    //  height: 60px;
-    //  margin-top: 0;
-    //  margin-right: 5px;
-    //  width: 68px;
-    //}
   }
 
   .copyright {
@@ -96,7 +69,7 @@
         text-align: center;
       }
       @include responsive('sm'){
-        text-align: center;
+        text-align: left;
       }
       @include responsive('md'){
         text-align: left;
@@ -125,6 +98,9 @@
 
   .insta-feed {
     list-style: none;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
 
     li {
       float: left;

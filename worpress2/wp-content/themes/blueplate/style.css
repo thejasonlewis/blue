@@ -12,9 +12,42 @@
   top: 50%;
 }
 
+.top-bar .m-find-table .m-table-finder {
+  padding: 10px 0;
+  width: 120px;
+}
+
 .top-bar .name h1 a {
   padding: 0;
   margin-left: 25px;
+}
+
+.top-bar .name h1 a img {
+  width: 56%;
+}
+
+@media screen and (min-width: 480px) {
+  .top-bar .name h1 a img {
+    width: 56%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .top-bar .name h1 a img {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .top-bar .name h1 a img {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .top-bar .name h1 a img {
+    width: auto;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -253,6 +286,27 @@ meta.foundation-data-attribute-namespace {
   font-family: false;
 }
 
+#dial {
+  font-size: 24px;
+  background-color: #3b4350;
+  color: #fff;
+  padding: 10px 0;
+  height: 91px;
+}
+
+#dial h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 21px;
+  font-family: lato;
+}
+
+#dial h2 span {
+  padding-right: 15px;
+}
+
 #footer {
   background-color: #232932;
   border-top: 1px solid #3b4350;
@@ -287,18 +341,18 @@ meta.foundation-data-attribute-namespace {
 }
 
 #footer .columns {
-  text-align: center;
+  text-align: left;
 }
 
 @media screen and (min-width: 480px) {
   #footer .columns {
-    text-align: center;
+    text-align: left;
   }
 }
 
 @media screen and (min-width: 768px) {
   #footer .columns {
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -333,7 +387,7 @@ meta.foundation-data-attribute-namespace {
   border-radius: 2px;
   float: left;
   height: 60px;
-  margin: 15px 6px 6px 6px;
+  margin: 15px 6px 0 0;
   width: 61px;
 }
 
@@ -355,7 +409,7 @@ meta.foundation-data-attribute-namespace {
 
 @media screen and (min-width: 768px) {
   #footer .copyright p {
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -389,6 +443,9 @@ meta.foundation-data-attribute-namespace {
 
 #footer .insta-feed {
   list-style: none;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
 }
 
 #footer .insta-feed li {
@@ -549,27 +606,6 @@ meta.foundation-data-attribute-namespace {
   .home #background-photo .vertical h1 {
     font-size: 36pt;
   }
-}
-
-.home #dial {
-  font-size: 24px;
-  background-color: #3b4350;
-  color: #fff;
-  padding: 10px 0;
-  height: 91px;
-}
-
-.home #dial h2 {
-  color: #fff;
-  font-size: 24px;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 21px;
-  font-family: lato;
-}
-
-.home #dial h2 span {
-  padding-right: 15px;
 }
 
 .mobile-find-a-table {
